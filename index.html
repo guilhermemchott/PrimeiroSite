@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <script type="text/javascript" src="js/busca_google.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
+    <title>Cafés Zona da Mata</title>
+    <link rel="SHORTCUT ICON" href="figs/coffee_icon.ico"></i>>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+      <div class="container">
+        <a href="index.html" class="navbar-brand h1 mb-0">Curso</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSite" name="button">
+          <i class="fa fa-bars text-primary"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#welcome">Início</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#serviços">Serviços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#depoimentos">Depoimentos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Manual de Instruções</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+              data-toggle="dropdown" id="navDrop">Social</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item"
+                  href= "https://www.facebook.com/guiilherme.mendes.792?ref=bookmarks"
+                  target="_blank">Facebook
+                </a>
+
+                <a class="dropdown-item"
+                  href="https://www.instagram.com/g_mendes_/" target="_blank">
+                  Instagram
+                </a>
+
+                <a class="dropdown-item" href="https://twitter.com/Flamengo"
+                  target="_blank">
+                  Twitter
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <form class="form-inline" action="index.html" method="post">
+            <input class="form-control ml-5 mr-2" type="search" placeholder="Buscar"
+            name="" value="">
+            <button class="btn btn-default" type="Submit" onclick="busca_google()">
+              <i class="fa fa-search text-primary"></i>
+
+              <span class="glyphicon glyphicon-search" style="color:red"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="carousel slide" id="carouselSite" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselSite" data-slide-to ="0" class="active"></li>
+
+        <li data-target="#carouselSite" data-slide-to ="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="figs/escudo_cafe.jpg " class="img-fluid d-center w-100 ">
+          <div class="carousel-caption">
+            <h1>HEADING</h1>
+
+            <p class="lead">paragrafo paragrafo paragrafo paragrafo paragrafo
+              paragrafo paragrafo paragrafo paragrafo paragrafo paragrafo
+              paragrafo paragrafo paragrafo paragrafo paragrafo paragrafo
+              paragrafo </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="figs/escudo_cafe2.jpg" class="img-fluid d-block w-100">
+
+          <div class="carousel-caption">
+            <h1>HEADING</h1>
+
+            <p class="lead">paragrafo paragrafo paragrafo</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselSite" role="button"
+        data-slide ="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+        <span class="sr-only">Anterior</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselSite" role="button"
+        data-slide ="next">
+        <span class="carousel-control-next-icon"></span>
+
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="row" id=welcome>
+        <div class="col-12 text-center my-5">
+          <h1 class="display-3">Seja bem vindo</h1>
+
+          <p>Essa aqui é a descrição do site</p>
+        </div>
+      </div>
+
+            <div class="row" id=serviços>
+        <div class="col-12 text-center mt-5" >
+          <h1 class="display-3"  > <i class="fa fa-industry text-primary" arial-hidden="true"></i> Serviços</h1>
+
+          <p>Essa aqui é a descrição do site</p>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card mb-5">
+            <img class="card-img-top" src="figs/cafe1.jpg">
+            <div class="card-body">
+              <h4 class="card-title">Título do Card</h4>
+
+              <h6 class="card-subtitle mb-2 text-muted">Subtitulo do Card</h6>
+
+              <p class="card-text"> Conteúdo do Card</p>
+            </div>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> Característica 1</li>
+
+              <li class="list-group-item"> Característica 2</li>
+
+              <li class="list-group-item"> Característica 3</li>
+            </ul>
+
+            <div class="card-body">
+              <a class="card-link" href="#" data-toggle="modal" data-target="#saibaModal"> Saiba mais</a>
+
+              <a class="card-link" href="#serviços"> Contratar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card mb-5">
+            <img class="card-img-top" src="figs/cafe2.jpg">
+
+            <div class="card-body">
+              <h4 class="card-title">Título do Card</h4>
+
+              <h6 class="card-subtitle mb-2 text-muted">Subtitulo do Card</h6>
+
+              <p class="card-text"> Conteúdo do Card</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> Característica 1</li>
+
+              <li class="list-group-item"> Característica 2</li>
+
+              <li class="list-group-item"> Característica 3</li>
+            </ul>
+            <div class="card-body">
+              <a class="card-link" href="#" data-toggle="modal" data-target="#saibaModal"> Saiba mais</a>
+
+              <a class="card-link" href="#serviços" > Contratar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card mb-5">
+            <img class="card-img-top" src="figs/cafe3.jpg">
+
+            <div class="card-body">
+              <h4 class="card-title">Título do Card</h4>
+
+              <h6 class="card-subtitle mb-2 text-muted">Subtitulo do Card</h6>
+
+              <p class="card-text"> Conteúdo do Card</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> Característica 1</li>
+
+              <li class="list-group-item"> Característica 2</li>
+
+              <li class="list-group-item"> Característica 3</li>
+            </ul>
+            <div class="card-body">
+              <a class="card-link" href="#" data-toggle="modal" data-target="#saibaModal"> Saiba mais</a>
+              <a class="card-link" href="#serviços"> Contratar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" id=depoimentos>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="display-4"> <i class="fa fa-video-camera text-primary"
+              arial-hidden="true"></i> Depoimentos</h1>
+
+            <p class="lead">texto texto texto</p>
+
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav"
+              role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="nav-pills-01" data-toggle="pill"
+                  href="#nav-link-01">
+                  Liverpool
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="nav-pills-02" data-toggle="pill"
+                  href="#nav-link-02">
+                  Palmeiras
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="nav-pills-03" data-toggle="pill"
+                  href="#nav-link-03">
+                  Vasco
+                </a>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="nav-pills-content">
+              <div class="tab-pane fade show active" id="nav-link-01"
+                role="tabpanel">
+                <div class="row">
+                  <div class="col-sm 6">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                          src="https://www.youtube.com/embed/zUVA-eIv0s0">
+                        </iframe>
+                      </div>
+                  </div>
+
+                  <div class="col-sm 6">
+                    <p>texto texto texto texto texto texto texto texto texto
+                      texto texto texto texto texto texto texto texto texto
+                      texto texto texto texto texto texto texto texto texto
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="nav-link-02" role="tabpanel">
+                <div class="row">
+                  <div class="col-sm 6">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                          src="https://www.youtube.com/embed/gH9ZVXwWIvo">
+                        </iframe>
+                      </div>
+                  </div>
+
+                  <div class="col-sm 6">
+                    <p>texto texto texto texto texto texto texto texto texto
+                      texto texto texto texto texto texto texto texto texto
+                      texto texto texto texto texto texto texto texto texto
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="nav-link-03" role="tabpanel">
+                <div class="row">
+                  <div class="col-sm 6">
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                          src="https://www.youtube.com/embed/W8WzIeTIMcs">
+                        </iframe>
+                      </div>
+                  </div>
+
+                  <div class="col-sm 6">
+                    <p>texto texto texto texto texto texto texto texto texto
+                      texto texto texto texto texto texto texto texto texto
+                      texto texto texto texto texto texto texto texto texto
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Formulário -->
+    <div class="container">
+      <div class="row" id="contato">
+        <div class="col-12 text-center my-5">
+          <h1 class="display-4"> <i class="fa fa-paper-plane text-primary" arial-hidden="true"></i> Contato</h1>
+        </div>
+      </div>
+      <div class="row mb-5 justify-content-center">
+        <div class="col-sm-12 col-md-10 com-lg-8">
+          <form class="" action="index.html" method="post">
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <!-- <label for="inputNome"></label> -->
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome" >
+              </div>
+
+              <div class="form-group col-sm-6">
+                <!-- <label for="inputSobrenome"></label> -->
+                <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+              </div>
+
+              <div class="form-group col-sm-12">
+                <select id="inputAssunto" class="form-control">
+                  <option selected> Assunto </option>
+                  <option>Assunto 1</option>
+                  <option>Assunto 2</option>
+                  <option>Assunto 3</option>
+                  <option>Assunto 4</option>
+
+                </select>
+              </div>
+
+              <div class="form-group col-sm-12">
+                <!-- <label for="inputEndereço"></label> -->
+                <input type="text" class="form-control" id="inputEndereço" placeholder="Endereço">
+              </div>
+
+              <div class="form-group col-sm-12">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="" value="">
+                    Desejo receber novidades por e-mail.
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary"name="button"> Enviar</button>
+                <a tabindex="0" class=btn btn-secondary" ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="AJUDA AJUDA" data-content="textextext">Ajuda</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="saibaModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5 class="modal-title w-100 text-primary"> Título Título Título</h5>
+            <button type="button" class="close" data-dismiss="modal" name="button">
+              <!-- <span><i class="fa fa-times text-primary"></i></span> -->
+              <span class="text-primary">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-6">
+                  <p>Texto Texto Texto</p>
+                </div>
+
+                <div class="col-6">
+                  <p>Texto Texto Texto</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" data-dismiss="modal" name="button"> Contratar!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+
+    <script type="text/javascript">
+      window.addEventListener("hashchange", function() { scrollBy(0, -50) });
+    </script>
+    <!-- script para navegar até a posição do texto -->
+    <!-- <script type="text/javascript">
+      $('.test, .nav-link, .navbar-brand, .new-button').click(function() {
+        var sectionTo = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(sectionTo).offset().top
+        }, 1500);
+      });
+    </script> -->
+
+    <!-- gostaria de deixar salvo e m um script separado -->
+    <!-- <script scr="js/script_popover.js"></script> -->
+  </body>
+</html>

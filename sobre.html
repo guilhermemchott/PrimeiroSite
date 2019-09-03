@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <script type="text/javascript" src="js/busca_google.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
+    <title>Cafés Zona da Mata</title>
+    <link rel="SHORTCUT ICON" href="figs/coffee_icon.ico"></i>>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+      <div class="container">
+        <a href="index.html" class="navbar-brand h1 mb-0">Curso</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSite" name="button">
+          <i class="fa fa-bars text-primary"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#welcome">Início</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#serviços">Serviços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#depoimentos">Depoimentos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contato">Contato</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Manual de Instruções</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"
+              data-toggle="dropdown" id="navDrop">Social</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item"
+                  href= "https://www.facebook.com/guiilherme.mendes.792?ref=bookmarks"
+                  target="_blank">Facebook
+                </a>
+
+                <a class="dropdown-item"
+                  href="https://www.instagram.com/g_mendes_/" target="_blank">
+                  Instagram
+                </a>
+
+                <a class="dropdown-item" href="https://twitter.com/Flamengo"
+                  target="_blank">
+                  Twitter
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <form class="form-inline" action="index.html" method="post">
+            <input class="form-control ml-5 mr-2" type="search" placeholder="Buscar"
+            name="" value="">
+            <button class="btn btn-default" type="Submit" onclick="busca_google()">
+              <i class="fa fa-search text-primary"></i>
+
+              <span class="glyphicon glyphicon-search" style="color:red"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row my-5">
+      <div class="com-sm-6 col-md-4 mb-3">
+        <nav id="navVertical" class="navbar navbar-light bg-light">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item1">Item 1</a>
+
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ml-3" href="#item1-1">Subitem 1.1</a>
+
+              <a class="nav-link ml-3" href="#item1-2">Subitem 1.2</a>
+            </nav>
+
+            <a class="nav-link my-2" href="#item2">Item 2</a>
+
+            <a class="nav-link my-2" href="#item3">Item 3</a>
+
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ml-3" href="#item3-1">Subitem 3.1</a>
+
+              <a class="nav-link ml-3" href="#item3-2">Subitem 3.2</a>
+            </nav>
+
+          </nav>
+        </nav>
+      </div>
+
+      <div class="com-sm-6 col-md-8">
+        <div class="scrollspySite" data-spy="scroll" data-target="#navVerrtical" data-offset="0">
+          <h4 id="item1">Item 1</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+            auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+            et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+            blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+            laoreet non varius at, hendrerit non neque. Nam sed nibh et nisi
+             fermentum porttitor ac in ante. Cras volutpat tempus metus, eget
+             cursus ipsum tempus quis. Lorem ipsum dolor sit amet, consectetur
+             adipiscing elit. Phasellus tempor ipsum eu pellentesque pulvinar.
+             Cras sollicitudin rutrum metus id sagittis. Proin enim dolor,
+             venenatis a metus iaculis, laoreet molestie erat. Lorem ipsum
+             dolor sit amet, consectetur adipiscing elit. Curabitur consequat
+             nulla metus, vitae dictum urna placerat vulputate.
+           </p>
+           <h5 id=item1-1>Subitem 1.1</h5>
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+             auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+             et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+             blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+             laoreet non varius at, hendrerit non neque.
+           </p>
+           <h5 id=item1-2>Subitem 1.2</h5>
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+             auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+             et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+             blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+             laoreet non varius at, hendrerit non neque.
+           </p>
+           <h4 id="item2">Item 2</h4>
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+             auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+             et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+             blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+             laoreet non varius at, hendrerit non neque. Nam sed nibh et nisi
+              fermentum porttitor ac in ante. Cras volutpat tempus metus, eget
+              cursus ipsum tempus quis. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Phasellus tempor ipsum eu pellentesque pulvinar.
+              Cras sollicitudin rutrum metus id sagittis. Proin enim dolor,
+              venenatis a metus iaculis, laoreet molestie erat. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Curabitur consequat
+              nulla metus, vitae dictum urna placerat vulputate.
+              <h4 id="item3">Item 3</h4>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+                auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+                et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+                blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+                laoreet non varius at, hendrerit non neque. Nam sed nibh et nisi
+                 fermentum porttitor ac in ante. Cras volutpat tempus metus, eget
+                 cursus ipsum tempus quis. Lorem ipsum dolor sit amet, consectetur
+                 adipiscing elit. Phasellus tempor ipsum eu pellentesque pulvinar.
+                 Cras sollicitudin rutrum metus id sagittis. Proin enim dolor,
+                 venenatis a metus iaculis, laoreet molestie erat. Lorem ipsum
+                 dolor sit amet, consectetur adipiscing elit. Curabitur consequat
+                 nulla metus, vitae dictum urna placerat vulputate.
+               </p>
+               <h5 id=item3-1>Subitem 3.1</h5>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+                 auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+                 et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+                 blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+                 laoreet non varius at, hendrerit non neque.
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+                 auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+                 et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+                 blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+                 laoreet non varius at, hendrerit non neque.
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+                 auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+                 et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+                 blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+                 laoreet non varius at, hendrerit non neque.
+               </p>
+               <h5 id=item3-2>Subitem 3.2</h5>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Cras consequat ipsum ac magna elementum congue. Maecenas faucibus
+                 auctor rhoncus. Maecenas varius eget eros eget vestibulum. Mauris
+                 et neque sed tellus sagittis lacinia. Vivamus id tortor in ligula
+                 blandit rutrum. Nulla eu faucibus velit. Suspendisse lacus urna,
+                 laoreet non varius at, hendrerit non neque.
+               </p>
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+
+    <script type="text/javascript">
+      window.addEventListener("hashchange", function() { scrollBy(0, -50) });
+    </script>
+    <!-- script para navegar até a posição do texto -->
+    <script type="text/javascript">
+      $('.test, .nav-link, .navbar-brand, .new-button').click(function() {
+        var sectionTo = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(sectionTo).offset().top
+        }, 1500);
+      });
+    </script>
+  </body>
+</html>
